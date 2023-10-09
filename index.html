@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script defer src="database.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>Movie Database</title>
+</head>
+
+<body style="background-image: url('banner-4.jpg');">
+    
+    <div>
+        <header class="headofsite"><h1>Movie DataBase</h1>
+                <h3>Make a choice...</h3>      
+        </header>
+        <nav >
+            <form id="radio-navigation" class="form">
+             <div class="navbar">  
+                <input  id="searchbar" type="text" placeholder="search" name="search" >
+            </div> 
+                <div class="navbar">
+                    <input  type="radio" id="X-Men" name="radio">
+                    <label  for="X-Men"><h2>the X-Men</h2></label>
+                </div>
+                <div class="navbar">
+                    <input  type="radio" id="Princess" name="radio">
+                    <label for="Princess"><h2>Princesses</h2></label>
+                </div>
+                <div class="navbar">
+                    <input  type="radio" id="Batman" name="radio">
+                    <label  for="Batman"><h2>Batman</h2></label>
+                </div>
+                <div class="navbar">
+                    <input type="radio" id="Avengers" name="radio">
+                <label for="Avengers"><h2>Avengers</h2></label>
+                </div>
+                <div class="navbar">
+                    <input  type="radio" id="New-Movies" name="radio">
+                    <label  for="New-Movies"><h2>New Movies</h2></label>
+                </div>
+                <div class="navbar">
+                    <input  type="reset" id="reset" name="reset" value="reset">
+                </div>
+            </form>
+        </nav>
+        <main >
+            <ul id="movie-list" class="main__list-li posterwrap"></ul>
+        </main>
+
+        <footer>
+        
+
+        </footer>
+    </div>
+</body>
+
+</html>

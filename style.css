@@ -1,0 +1,64 @@
+h2 {
+  opacity: 90%;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(231, 234, 250);
+  font-size: 12px;
+  text-shadow: 2px 2px 8px rgb(51, 48, 243);
+}
+h1 {
+  opacity: 95%;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 10px rgb(153, 156, 225);
+}
+h3 {
+  opacity: 80%;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(240, 24, 24);
+}
+.main__list-li__img{
+  border-radius: 10px;
+  height: 300px;
+  width:200px;
+  box-shadow: 10px wheat;
+  border: solid 2px rgb(240, 24, 24);
+  margin:2px
+
+}
+.headofsite {
+  border-radius: 100px;
+  opacity: 80%;
+  border: solid 3px red;
+  align-items: center;
+  text-align: center;
+}
+.navigation {
+  border: solid 3px red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.posterwrap {padding:2px;
+  border-radius: 50px;
+  border: solid 3px red;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex: column;
+  justify-content: center;
+  box-shadow: 2px wheat;
+ 
+}
+/* .img {
+  border: solid 2px red;
+} */
+.navbar {
+  padding: 10px 20px;
+  margin:3px
+}
